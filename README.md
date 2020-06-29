@@ -1,5 +1,5 @@
 # :movie_camer:Project_Java_SimpleMoie
-- JAVA기반의 한국 영화 박스오피스 1~0위 까지의 고정정보를 파싱 및 크롤링 하
+- JAVA기반의 한국 영화 박스오피스 1~0위 까지의 고정정보를 파싱 및 크롤링 
 - MongoDB에 저장 후 사용자에게 정보를 출력해주는 콘솔 프로그램
 
 # :heavy_check_mark:Developer Environment
