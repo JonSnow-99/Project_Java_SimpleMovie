@@ -17,21 +17,21 @@
 ## :floppy_disk:Repository structure description
 
 #### 1.src/common
-  -[SimpleMovieMain](): 프로그램 시작하는 곳 + 콘솔 프로그래밍 View 단
-  -[Boxofficeparser](): 한국영화진흥위원회에서 일별 박스오피스 정보 수집(랭크, 영화제목, 누적 관객수, 누적 매출액)
+ -[SimpleMovieMain](https://github.com/skynate22/Project_Java_SimpleMovie/blob/master/SimpleMovie/src/common/SimpleMovieMain.java): 프로그램 시작하는 곳 + 콘솔 프로그래밍 View 단
+ -[Boxofficeparser](https://github.com/skynate22/Project_Java_SimpleMovie/blob/master/SimpleMovie/src/common/BoxOfficeParser.java): 한국영화진흥위원회에서 일별 박스오피스 정보 수집(랭크, 영화제목, 누적 관객수, 누적 매출액)
 
 #### 2.src/naver
-  -[BoxOfficeNaver]() : Naver에서 Boxoffice 1~10위 까지 영화 코드(네이버 고유 영화코드) 수집
-  -[ReplyCrawlerNaver]() : Naver에서 해당 영화의 댓글, 평점, 작성자, 작성일자 수집해서 MongoDB에 저장
+ -[BoxOfficeNaver](https://github.com/skynate22/Project_Java_SimpleMovie/blob/master/SimpleMovie/src/naver/BoxOfficeNaver.java) : Naver에서 Boxoffice 1~10위 까지 영화 코드(네이버 고유 영화코드) 수집
+ -[ReplyCrawlerNaver](https://github.com/skynate22/Project_Java_SimpleMovie/blob/master/SimpleMovie/src/naver/ReplyCrawlerNaver.java) : Naver에서 해당 영화의 댓글, 평점, 작성자, 작성일자 수집해서 MongoDB에 저장
 #### 3.src/daum
-  -[BoxOfficeDaum]() : Daum에서 Boxoffice 1~10위 까지 영화 코드(다음 고유 영화코드) 수집
-  -[ReplyCrawlerDaum]() : Daum에서 해당 영화의 댓글, 평점, 작성자, 작성일자 수집해서 MongoDB에 저장
+ -[BoxOfficeDaum](https://github.com/skynate22/Project_Java_SimpleMovie/blob/master/SimpleMovie/src/daum/BoxOfficeDaum.java) : Daum에서 Boxoffice 1~10위 까지 영화 코드(다음 고유 영화코드) 수집
+ -[ReplyCrawlerDaum](https://github.com/skynate22/Project_Java_SimpleMovie/blob/master/SimpleMovie/src/daum/ReplyCrawlerDaum.java) : Daum에서 해당 영화의 댓글, 평점, 작성자, 작성일자 수집해서 MongoDB에 저장
 #### 4.src/persistence
-  -[ReplyDAO](): 네이버, 다음에서 수집한 영화 댓글 저장 또는 삭제할 때 사용하는 DAO
+ -[ReplyDAO](https://github.com/skynate22/Project_Java_SimpleMovie/blob/master/SimpleMovie/src/persistence/ReplyDAO.java): 네이버, 다음에서 수집한 영화 댓글 저장 또는 삭제할 때 사용하는 DAO
 #### 5.sr/domain
-  -[ReplyDTO](): 네이버, 다음에서 수집한 영화 댓글 수집 후 MongoDB에 저장할 때 사용하는 DTO
+ -[ReplyDTO](https://github.com/skynate22/Project_Java_SimpleMovie/tree/master/SimpleMovie/src/domain): 네이버, 다음에서 수집한 영화 댓글 수집 후 MongoDB에 저장할 때 사용하는 DTO
 #### 6.pom.xml
-  -[pom.xml](): Maven에서 build할 Library 설정하는 장소
+ -[pom.xml](): Maven에서 build할 Library 설정하는 장소
 
 ## :speech_balloon:How to use?
 
