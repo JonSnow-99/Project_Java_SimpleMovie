@@ -9,7 +9,7 @@
 - Using Package : [jsoup, json-shimple, mongo-Java-driver].()
 -Version Tools : [Github, Sourcetree].()
 -parsing URL: [한국영화진흥위원회]
-(http://www.kobis.or.kr/kobisopenapi/homepag)/apiservice/searchServiceInfo.do)
+(http://www.kobis.or.kr/kobisopenapi/homepg/board/findServiceGuideList.do)
 - Crawling URL
 + [NAVER MOVIE](http://movie.naver.com/)
 + [DAUM MOVIE](http://moovie,daum.net/new#slider-1-0)
